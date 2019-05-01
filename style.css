@@ -10,7 +10,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
 }
 .container-1,
 .container-2 {
@@ -19,7 +19,7 @@ body {
 }
 .container-3 {
   top: 600px;
-  position: fixed;
+ 
   bottom: 0;
   right: 0;
   left: 0;
@@ -58,7 +58,7 @@ body {
 .digitalDisplay {
   position: relative;
   margin: 40px 40px;
-  padding: 8rem 8rem;
+  padding: 9rem 9rem;
   color: #01aef0;
   font-size: 140px;
   text-shadow: 3px 1px 2px #000;
